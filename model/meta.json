@@ -1,0 +1,163 @@
+{
+  "metrics": {
+    "MAE": 259.1690008147769,
+    "RMSE": 389.84005229474894,
+    "R2": 0.927999325062951
+  },
+  "best_params": {
+    "regressor__max_depth": 20,
+    "regressor__min_samples_split": 5,
+    "regressor__n_estimators": 150
+  },
+  "low_threshold": 964.6,
+  "high_threshold": 1824.0,
+  "categories": {
+    "District": [
+      "Adilabad",
+      "Bhadradri Kothagudem",
+      "Hanumakonda",
+      "Hyderabad",
+      "Jagtial",
+      "Jangaon",
+      "Jayashankar Bhupalpally",
+      "Jogulamba Gadwal",
+      "Kamareddy",
+      "Karimnagar",
+      "Khammam",
+      "Kumuram Bheem Asifabad",
+      "Mahabubabad",
+      "Mahabubnagar",
+      "Mancherial",
+      "Medak",
+      "Medchal-Malkajgiri",
+      "Mulugu",
+      "Nagarkurnool",
+      "Nalgonda",
+      "Narayanpet",
+      "Nirmal",
+      "Nizamabad",
+      "Peddapalli",
+      "Rajanna Sircilla",
+      "Rangareddy",
+      "Sangareddy",
+      "Siddipet",
+      "Suryapet",
+      "Vikarabad",
+      "Wanaparthy",
+      "Warangal",
+      "Yadadri Bhuvanagiri"
+    ],
+    "Season": [
+      "Kharif",
+      "Rabi",
+      "Summer"
+    ],
+    "Crop": [
+      "Bajra",
+      "Black Gram",
+      "Chilli",
+      "Cotton",
+      "Green Gram",
+      "Groundnut",
+      "Maize",
+      "Red Gram",
+      "Rice",
+      "Sorghum",
+      "Soybean",
+      "Turmeric"
+    ],
+    "Soil_Type": [
+      "Black",
+      "Red"
+    ],
+    "Irrigation_Type": [
+      "Borewell",
+      "Canal",
+      "Mixed",
+      "Rainfed",
+      "Tank"
+    ]
+  },
+  "defaults": {
+    "Area_ha": 244.64499999999998,
+    "Annual_Rainfall_mm": 888.2,
+    "Seasonal_Rainfall_mm": 521.95,
+    "Mean_Temperature_C": 27.9,
+    "Relative_Humidity_pct": 56.3,
+    "Soil_pH": 6.34,
+    "Soil_Moisture_pct": 26.1,
+    "Nitrogen_kg_ha": 44.7,
+    "Phosphorus_kg_ha": 24.6,
+    "Potassium_kg_ha": 26.2,
+    "Fertilizer_Total_NPK_kg_ha": 95.8,
+    "Year": 2013.0
+  },
+  "ranges": {
+    "Area_ha": [
+      8.0,
+      7229.46
+    ],
+    "Annual_Rainfall_mm": [
+      420.0,
+      1450.0
+    ],
+    "Seasonal_Rainfall_mm": [
+      29.7,
+      1089.4
+    ],
+    "Mean_Temperature_C": [
+      21.2,
+      33.3
+    ],
+    "Relative_Humidity_pct": [
+      25.0,
+      90.0
+    ],
+    "Soil_pH": [
+      4.8,
+      8.2
+    ],
+    "Soil_Moisture_pct": [
+      8.0,
+      42.0
+    ],
+    "Nitrogen_kg_ha": [
+      8.0,
+      138.9
+    ],
+    "Phosphorus_kg_ha": [
+      5.0,
+      62.7
+    ],
+    "Potassium_kg_ha": [
+      5.0,
+      60.3
+    ],
+    "Fertilizer_Total_NPK_kg_ha": [
+      20.0,
+      210.9
+    ],
+    "Year": [
+      2001.0,
+      2024.0
+    ]
+  },
+  "importances": {
+    "Crop_Turmeric": 0.33260218633404853,
+    "Crop_Rice": 0.27443686175499016,
+    "Crop_Maize": 0.24150337408121705,
+    "Crop_Chilli": 0.029185425227549557,
+    "Irrigation_Type_Rainfed": 0.013542517043238889,
+    "Crop_Cotton": 0.01334207346508436,
+    "Crop_Groundnut": 0.012283895114376404,
+    "Seasonal_Rainfall_mm": 0.007920238223179533,
+    "Nitrogen_kg_ha": 0.006493819323919832,
+    "Phosphorus_kg_ha": 0.006073383741522766,
+    "Fertilizer_Total_NPK_kg_ha": 0.005827692236182261,
+    "Area_ha": 0.00521172145053884,
+    "Soil_pH": 0.005125799589235624,
+    "Mean_Temperature_C": 0.004768254380845434,
+    "Potassium_kg_ha": 0.004691145991200324
+  },
+  "n_rows": 5000
+}
